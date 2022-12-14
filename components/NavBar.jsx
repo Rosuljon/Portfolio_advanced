@@ -6,8 +6,12 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsPersonLinesFill } from "react-icons/bs";
 const NavBar = () => {
   const [nav, setNav] = useState(false);
-  const navHandler = () => {
+  const navHandler = (e) => {
     setNav(!nav);
+  };
+  const OnlyParentClickHandler = (e) => {
+    if (e.target === e.currentTarget)
+        setNav(!nav);
   };
 
   return (
@@ -48,6 +52,7 @@ const NavBar = () => {
       </div>
 
       <div
+        onClick={OnlyParentClickHandler}
         className={
           nav ? " md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
         }
