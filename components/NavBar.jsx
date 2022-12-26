@@ -10,8 +10,7 @@ const NavBar = () => {
     setNav(!nav);
   };
   const OnlyParentClickHandler = (e) => {
-    if (e.target === e.currentTarget)
-        setNav(!nav);
+    if (e.target === e.currentTarget) setNav(!nav);
   };
 
   return (

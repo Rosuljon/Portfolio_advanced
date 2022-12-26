@@ -1,5 +1,5 @@
 import Head from "next/head";
-import {NavBar, Main, About, Skills} from "../components"
+import { NavBar, Main, About, Skills } from "../components";
 export default function Home() {
   return (
     <div>
