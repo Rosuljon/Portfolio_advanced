@@ -12,7 +12,7 @@ export default function Home() {
       <Main />
       <About />
       <Skills />
-      <h1>Ronnyjon merge</h1>
+      <h1>Ronnyjon merge devjon</h1>
     </div>
   );
 }
