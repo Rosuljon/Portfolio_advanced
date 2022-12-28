@@ -12,6 +12,7 @@ export default function Home() {
       <Main />
       <About />
       <Skills />
+      <h1>Ronnyjon merge</h1>
     </div>
   );
 }
