@@ -12,7 +12,6 @@ export default function Home() {
       <Main />
       <About />
       <Skills />
-      <h1>Ronny vs CR7 vs LM10 </h1>
     </div>
   );
 }
