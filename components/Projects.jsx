@@ -13,37 +13,37 @@ const Projects = () => {
       name: "Wallet for BlockChain Tech.",
       framework: "Svelte js",
       photo: wallet,
-      link: "https://wallet.niktonet.com",
+      link: "wallet",
     },
     {
       name: "Explorer for BlockChain Tech.",
       framework: "Svelte js",
       photo: explorer,
-      link: "https://explorer.niktonet.com",
+      link: "explorer",
     },
     {
       name: "Troy Kebab Food App",
       framework: "React js",
       photo: troy,
-      link: "https://troykebab.netlify.app",
+      link: "troy-kebab",
     },
     {
       name: "Best Quote App",
       framework: "React js",
       photo: quote,
-      link: "https://best-quote.netlify.app",
+      link: "best-quote",
     },
     {
       name: "Meet-up",
       framework: "Svelte js",
       photo: meetup,
-      link: "https://meet-up-ronny.netlify.app",
+      link: "meet-up",
     },
     {
       name: "Crypto App",
       framework: "React js",
       photo: crypto,
-      link: "https://crypto-ronny.netlify.app",
+      link: "crypto",
     },
   ];
   return (
