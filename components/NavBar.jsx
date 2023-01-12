@@ -4,6 +4,13 @@ import Link from "next/link";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsPersonLinesFill } from "react-icons/bs";
+import { motion } from "framer-motion"
+
+const variants = {
+  open: { opacity: 1, y: 0, },
+  closed: { opacity: 0, y: "-120%" },
+}
+
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
@@ -71,12 +78,12 @@ const NavBar = () => {
           nav ? " md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
         }
       >
-        <div
-          className={
-            nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
-              : "fixed left-[-120%] top-0 ease-in duration-500"
-          }
+        <motion.nav
+          className="fixed  w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10"
+          initial="closed"
+          animate={nav ? "open" : "closed"}
+          variants={variants}
+          transition={{ ease: "easeOut", duration: 0.3 }}
         >
           <div>
             <div className="flex w-full items-center justify-between">
@@ -139,7 +146,7 @@ const NavBar = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.nav>
       </div>
     </div>
   );
