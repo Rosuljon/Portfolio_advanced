@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { NavBar, Main, About, Skills, Projects, Contact } from "../components";
+import { Main, About, Skills, Projects, Contact } from "../components";
 export default function Home() {
   return (
     <div>
@@ -8,7 +8,6 @@ export default function Home() {
         <meta name="description" content="Ronny Dev's Portfolio website" />
         <link rel="icon" href="/assets/r_dev.png" />
       </Head>
-      <NavBar />
       <Main />
       <About />
       <Skills />
