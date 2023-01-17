@@ -4,6 +4,7 @@ import Link from "next/link";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsPersonLinesFill } from "react-icons/bs";
+import { BsFillMoonStarsFill } from "react-icons/bs";
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
 const variants = {
@@ -11,7 +12,7 @@ const variants = {
   closed: { opacity: 0, y: "-120%" },
 };
 
-const NavBar = () => {
+const NavBar = ({darkHandler,darkMode}) => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState("#ecf0f3");
@@ -56,7 +57,7 @@ const NavBar = () => {
           : "fixed w-full h-20 z-[100]"
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 dark:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 dark:text-white">
         <Link href="/">
           <Image
             src="/assets/r_dev.png"
@@ -66,33 +67,38 @@ const NavBar = () => {
           ></Image>
         </Link>
         <div>
-          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
+          <ul style={{ color: `${linkColor}` }} className="hidden md:flex ">
+            <li>
+                <BsFillMoonStarsFill className="cursor-pointer text-2xl dark:text-white" onClick={() =>darkHandler(!darkMode)} />
+            </li>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+              <li className="ml-10 text-sm uppercase hover:border-b dark:text-white">Home</li>
             </Link>
             <Link href="#about">
-              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
+              <li className="ml-10 text-sm uppercase hover:border-b dark:text-white">About</li>
             </Link>
             <Link href="#skills">
-              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
+              <li className="ml-10 text-sm uppercase hover:border-b dark:text-white">Skills</li>
             </Link>
             <Link href="#projects">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase hover:border-b dark:text-white">
                 Projects
               </li>
             </Link>
             <Link href="#contact">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase hover:border-b dark:text-white">
                 Contact
               </li>
             </Link>
           </ul>
           <div
             style={{ color: `${linkColor}` }}
-            onClick={navHandler}
-            className="md:hidden"
+            className="md:hidden flex p-4"
           >
-            <AiOutlineMenu size={25} />
+             <span className="mr-8">
+             <BsFillMoonStarsFill className="cursor-pointer text-2xl dark:text-white" onClick={() =>darkHandler(!darkMode)} />
+              </span>
+            <AiOutlineMenu className="dark:text-white" onClick={navHandler} size={25} />
           </div>
         </div>
       </div>
@@ -104,7 +110,7 @@ const NavBar = () => {
         }
       >
         <motion.nav
-          className="fixed  w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10"
+          className="fixed  w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 dark:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 dark:text-white"
           initial="closed"
           animate={nav ? "open" : "closed"}
           variants={variants}
@@ -152,7 +158,7 @@ const NavBar = () => {
               </Link>
             </ul>
             <div className="pt-40">
-              <p className="uppercase tracking-widest text-[#5651e5]">
+              <p className="uppercase tracking-widest text-[#5651e5] dark:text-white">
                 Let&apos;s Connect
               </p>
               <div className="flex my-4 items-center justify-between w-full sm:w-[80%]">
