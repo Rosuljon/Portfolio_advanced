@@ -166,7 +166,7 @@ const NavBar = () => {
                     <FaGithub />
                   </div>
                 </Link>
-                <Link href="mailto://ikramjanov977@gmail.com">
+                <Link href="mailto:ikramjanov977@gmail.com">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <AiOutlineMail />
                   </div>
