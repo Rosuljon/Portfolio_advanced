@@ -52,7 +52,7 @@ const Projects = () => {
         <p className="uppercase text-xl tracking-widest text-[#5651e5]">
           Projects
         </p>
-        <h2 className="py-2">What i've built</h2>
+        <h2 className="py-2">What i&apos;ve built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           {data.map((project) => (
             <ProjectItem key={project.name} project={project} />
