@@ -37,18 +37,26 @@ const Contact = () => {
               <div>
                 <p className="uppercase pt-8">Connect with me</p>
                 <div className="flex items-center justify-between py-4">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaLinkedinIn />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaGithub />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <AiOutlineMail />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <BsPersonLinesFill />
-                  </div>
+                  <Link href="https://www.linkedin.com/in/rosuljon-ikromjanov-46a831185/">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                      <FaLinkedinIn />
+                    </div>
+                  </Link>
+                  <Link href="https://github.com/Rosuljon">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                      <FaGithub />
+                    </div>
+                  </Link>
+                  <Link href="mailto://ikramjanov977@gmail.com">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                      <AiOutlineMail />
+                    </div>
+                  </Link>
+                  <Link href="/#contact">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                      <BsPersonLinesFill />
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>

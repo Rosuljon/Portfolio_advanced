@@ -35,7 +35,7 @@ const Wallet = () => {
             fringilla. Nulla vel purus id nibh iaculis lacinia. Maecenas leo
             justo, auctor a auctor ac, porttitor ullamcorper mauris.{" "}
           </p>
-          <button className="py-2 px-8 mt-4 mr-8">Demo</button>
+          <button className="py-2 px-8 mt-4 mr-8"><Link href='https://wallet.niktonet.com/'>Demo</Link></button>
           <button className="py-2 px-8 mt-4 ">Code</button>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">

@@ -4,35 +4,36 @@ import Link from "next/link";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsPersonLinesFill } from "react-icons/bs";
-import { motion } from "framer-motion"
-import {useRouter} from 'next/router';
+import { motion } from "framer-motion";
+import { useRouter } from "next/router";
 const variants = {
-  open: { opacity: 1, y: 0, },
+  open: { opacity: 1, y: 0 },
   closed: { opacity: 0, y: "-120%" },
-}
+};
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('#ecf0f3');
-  const [linkColor, setLinkColor] = useState('#1f2937')
+  const [navBg, setNavBg] = useState("#ecf0f3");
+  const [linkColor, setLinkColor] = useState("#1f2937");
   const router = useRouter();
 
   useEffect(() => {
-    if(router.asPath === '/wallet' ||
-    router.asPath === '/explorer' ||
-    router.asPath === '/best-quote' ||
-    router.asPath === '/crypto' ||
-    router.asPath === '/troy-kebab' ||
-    router.asPath === '/meet-up'
-    ){
-      setNavBg('transparent');
-      setLinkColor('#ecf0f3');
-    }else {
-      setNavBg('#ecf0f3');
-      setLinkColor('#1f2937');
+    if (
+      router.asPath === "/wallet" ||
+      router.asPath === "/explorer" ||
+      router.asPath === "/best-quote" ||
+      router.asPath === "/crypto" ||
+      router.asPath === "/troy-kebab" ||
+      router.asPath === "/meet-up"
+    ) {
+      setNavBg("transparent");
+      setLinkColor("#ecf0f3");
+    } else {
+      setNavBg("#ecf0f3");
+      setLinkColor("#1f2937");
     }
-  },[router]);
+  }, [router]);
   const navHandler = (e) => {
     setNav(!nav);
   };
@@ -48,7 +49,7 @@ const NavBar = () => {
   }, []);
   return (
     <div
-    style={{backgroundColor: `${navBg}`}}
+      style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
           ? "fixed w-full h-20 shadow-lg z-[100]"
@@ -65,7 +66,7 @@ const NavBar = () => {
           ></Image>
         </Link>
         <div>
-          <ul style={{color : `${linkColor}`}} className="hidden md:flex">
+          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
@@ -86,7 +87,11 @@ const NavBar = () => {
               </li>
             </Link>
           </ul>
-          <div style={{color : `${linkColor}`}} onClick={navHandler} className="md:hidden">
+          <div
+            style={{ color: `${linkColor}` }}
+            onClick={navHandler}
+            className="md:hidden"
+          >
             <AiOutlineMenu size={25} />
           </div>
         </div>
@@ -107,13 +112,13 @@ const NavBar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Link onClick={navHandler} href='/'>
-              <Image
-                src="/assets/r_dev.png"
-                alt="logo"
-                width={87}
-                height={35}
-              />
+              <Link onClick={navHandler} href="/">
+                <Image
+                  src="/assets/r_dev.png"
+                  alt="logo"
+                  width={87}
+                  height={35}
+                />
               </Link>
               <div
                 onClick={navHandler}
@@ -151,18 +156,26 @@ const NavBar = () => {
                 Let&apos;s Connect
               </p>
               <div className="flex my-4 items-center justify-between w-full sm:w-[80%]">
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaLinkedinIn />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaGithub />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiOutlineMail />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <BsPersonLinesFill />
-                </div>
+                <Link href="https://www.linkedin.com/in/rosuljon-ikromjanov-46a831185/">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <FaLinkedinIn />
+                  </div>
+                </Link>
+                <Link href="https://github.com/Rosuljon">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <FaGithub />
+                  </div>
+                </Link>
+                <Link href="mailto://ikramjanov977@gmail.com">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <AiOutlineMail />
+                  </div>
+                </Link>
+                <Link href="/#contact" onClick={navHandler}>
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <BsPersonLinesFill />
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
