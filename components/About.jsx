@@ -26,6 +26,7 @@ const About = () => {
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
+            
           </p>
           <Link href="/#projects">
           <p className="py-2 text-gray-600 underline cursor-pointer dark:text-white">Check out some of my latest projects</p>
