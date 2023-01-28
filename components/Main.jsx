@@ -20,7 +20,7 @@ const Main = () => {
             I&apos;m a frontend web developer specializing in building
             exceptional digital experiences. Currently, I&apos;m focused on
             building responsive frontend web applications while learning backend
-            technologies.
+            technologies. 
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <Link href="https://www.linkedin.com/in/rosuljon-ikromjanov-46a831185/">
