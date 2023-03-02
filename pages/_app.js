@@ -10,6 +10,7 @@ function MyApp({ Component, pageProps }) {
     <div className={darkMode ? "dark" : "" }>
       <NavBar darkHandler={darkHandler} darkMode={darkMode} />
       <Component {...pageProps} />
+      
     </div>
   );
 }
