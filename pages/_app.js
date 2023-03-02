@@ -4,6 +4,7 @@ import { NavBar } from "../components";
 function MyApp({ Component, pageProps }) {
   const [darkMode,setDarkMode] = useState(false);
   const darkHandler = () => {
+    
     setDarkMode(!darkMode);
   }
   return (
