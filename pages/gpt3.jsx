@@ -27,7 +27,7 @@ const GPT3 = () => {
           <p className="uppercase text-xl tracking-widest text-[#5651e5] dark:text-white">
             Project
           </p>
-          <h2>Overview</h2>
+          <h2 className="pb-4">Overview</h2>
           <p>
             I created and practised this project in order to increase my UI/UX
             design skills, In this project, i revised the following topics:<br />

@@ -24,52 +24,57 @@ const Meet_Up = () => {
 
       <div className="max-w-[1240px] m-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4">
-          <p className="uppercase text-xl tracking-widest text-[#5651e5]">
+          <p className="uppercase text-xl tracking-widest text-[#5651e5] dark:text-white">
             Project
           </p>
-          <h2>Overview</h2>
+          <h2 className="pb-4">Overview</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-            consequat felis et ullamcorper fermentum. Phasellus a dictum neque,
-            non porttitor leo. Phasellus vulputate augue nec ipsum sollicitudin
-            fringilla. Nulla vel purus id nibh iaculis lacinia. Maecenas leo
-            justo, auctor a auctor ac, porttitor ullamcorper mauris.{" "}
+            When I applied for a job for the first time, I was familiar with
+            React. But I was asked by Company about I could work on a new
+            framework, Svelte or not. And then I quickly adapted a new
+            framework. During study time, I created this project. In this
+            project, i practised all svelte theories and learnt how to connect
+            with Firebase.
           </p>
-          <button className="py-2 px-8 mt-4 mr-8"><Link href='https://meet-up-ronny.netlify.app'>Demo</Link></button>
-          <button className="py-2 px-8 mt-4 "><Link href='https://github.com/Rosuljon/Meet-up-project'>Code</Link></button>
+          <button className="py-2 px-8 mt-4 mr-8">
+            <Link href="https://meet-up-ronny.netlify.app">Demo</Link>
+          </button>
+          <button className="py-2 px-8 mt-4 ">
+            <Link href="https://github.com/Rosuljon/Meet-up-project">Code</Link>
+          </button>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="text-gray-600 py-2 flex items-center dark:text-white">
                 <RiRadioButtonFill className="pr-1" />
                 Svelte
               </p>
 
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="text-gray-600 py-2 flex items-center dark:text-white">
                 <RiRadioButtonFill className="pr-1" />
                 Javascript
               </p>
 
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="text-gray-600 py-2 flex items-center dark:text-white">
                 <RiRadioButtonFill className="pr-1" />
                 Firebase
               </p>
 
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="text-gray-600 py-2 flex items-center dark:text-white">
                 <RiRadioButtonFill className="pr-1" />
                 Svelte-Router
               </p>
 
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="text-gray-600 py-2 flex items-center dark:text-white">
                 <RiRadioButtonFill className="pr-1" />
                 Svelte-i18n
               </p>
             </div>
           </div>
         </div>
-        <Link href='/#projects'>
+        <Link href="/#projects">
           <p className="underline cursor-pointer">Back</p>
         </Link>
       </div>

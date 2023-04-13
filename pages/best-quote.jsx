@@ -27,16 +27,21 @@ const Quote = () => {
           <p className="uppercase text-xl tracking-widest text-[#5651e5] dark:text-white">
             Project
           </p>
-          <h2>Overview</h2>
+          <h2 className="pb-4">Overview</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-            consequat felis et ullamcorper fermentum. Phasellus a dictum neque,
-            non porttitor leo. Phasellus vulputate augue nec ipsum sollicitudin
-            fringilla. Nulla vel purus id nibh iaculis lacinia. Maecenas leo
-            justo, auctor a auctor ac, porttitor ullamcorper mauris.{" "}
+            In this project, you can see all quotes which are created by site
+            users and additionally, you can create your own quote. Project is
+            created to practise react folder structure, react hooks, react
+            router and how to connect with Firebase.
           </p>
-          <button className="py-2 px-8 mt-4 mr-8"><Link href='https://best-quote.netlify.app'>Demo</Link></button>
-          <button className="py-2 px-8 mt-4 "><Link href='https://github.com/Rosuljon/Best_quotes_app-in-React-Router'>Code</Link></button>
+          <button className="py-2 px-8 mt-4 mr-8">
+            <Link href="https://best-quote.netlify.app">Demo</Link>
+          </button>
+          <button className="py-2 px-8 mt-4 ">
+            <Link href="https://github.com/Rosuljon/Best_quotes_app-in-React-Router">
+              Code
+            </Link>
+          </button>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
@@ -69,7 +74,7 @@ const Quote = () => {
             </div>
           </div>
         </div>
-        <Link href='/#projects'>
+        <Link href="/#projects">
           <p className="underline cursor-pointer">Back</p>
         </Link>
       </div>
