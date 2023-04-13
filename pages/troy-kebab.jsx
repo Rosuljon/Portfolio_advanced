@@ -30,7 +30,7 @@ const Troy = () => {
           <h2 className="pb-4">Overview</h2>
           <p>
             One of my friends has a kebab shop in Korea and he wanted to sell
-            his products by delivering customer's homes at that time. i was
+            his products by delivering customer&apos;s homes at that time. i was
             impressed with his ideas and created this website. In this project,
             I used react, context api, react hooks and firebase in order to
             store the orders.
