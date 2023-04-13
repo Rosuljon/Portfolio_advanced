@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Meet_Up = () => {
   return (
-    <div className="w-full h-screen dark:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 dark:text-white">
+    <div className="w-full h-auto sm:h-screen dark:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 dark:text-white">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
         <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10" />
         <Image
