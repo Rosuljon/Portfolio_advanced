@@ -26,7 +26,8 @@ const NavBar = ({darkHandler,darkMode}) => {
       router.asPath === "/best-quote" ||
       router.asPath === "/crypto" ||
       router.asPath === "/troy-kebab" ||
-      router.asPath === "/meet-up"
+      router.asPath === "/meet-up" ||
+      router.asPath === "/gpt3"
     ) {
       setNavBg("transparent");
       setLinkColor("#ecf0f3");

@@ -6,6 +6,7 @@ import troy from "../public/assets/projects/Troya.png";
 import quote from "../public/assets/projects/12.png";
 import meetup from "../public/assets/projects/meet-up.png";
 import crypto from "../public/assets/projects/crypto.png";
+import gpt3 from "../public/assets/projects/gpt333.png";
 
 const Projects = () => {
   const data = [
@@ -20,6 +21,12 @@ const Projects = () => {
       framework: "Svelte js",
       photo: explorer,
       link: "explorer",
+    },
+    {
+      name: "ChatGPT3 UI/UX design",
+      framework: "React js",
+      photo: gpt3,
+      link: "gpt3",
     },
     {
       name: "Troy Kebab Food App",
