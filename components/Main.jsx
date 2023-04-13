@@ -2,7 +2,7 @@ import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsPersonLinesFill } from "react-icons/bs";
-import Link from 'next/link';
+import Link from "next/link";
 
 const Main = () => {
   return (
@@ -15,12 +15,13 @@ const Main = () => {
           <h1 className="py-4 text-gray-700 dark:text-white">
             Hi, I&apos;m <span className="text-[#5651e5]">Ronny</span>
           </h1>
-          <h1 className="py-2 text-gray-700 dark:text-white">A Frontend Web Developer</h1>
+          <h1 className="py-2 text-gray-700 dark:text-white">
+            A Frontend Web Developer
+          </h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto dark:text-white">
-            I&apos;m a frontend web developer specializing in building
-            exceptional digital experiences. Currently, I&apos;m focused on
-            building responsive frontend web applications while learning backend
-            technologies. 
+            I am a passionate and experienced front-end developer. I specialize
+            in creating dynamic and responsive websites that combine creative
+            design with clean, efficient code.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <Link href="https://www.linkedin.com/in/rosuljon-ikromjanov-46a831185/">

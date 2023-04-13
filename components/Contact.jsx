@@ -9,7 +9,7 @@ const Contact = () => {
   const img =
     "https://hexagon.com/-/media/project/one-web/master-site/company/contact-us/contact-us-sales.png?h=704&iar=0&w=801&hash=977FE0ECBE43CF95612D4750AE89CFF6";
   return (
-    <div id="contact" className="w-full lg:h-screen">
+    <div id="contact" className="w-full">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className="uppercase text-xl tracking-widest text-[#5651e5] dark:text-white">
           Contact
