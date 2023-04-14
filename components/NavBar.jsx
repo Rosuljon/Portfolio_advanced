@@ -63,8 +63,8 @@ const NavBar = ({darkHandler,darkMode}) => {
           <Image
             src={"/assets/logo7.png"}
             alt="logo"
-            width="300"
-            height="250"
+            width="250"
+            height="200"
           ></Image>
         </Link>
         <div>
@@ -121,10 +121,10 @@ const NavBar = ({darkHandler,darkMode}) => {
             <div className="flex w-full items-center justify-between">
               <Link onClick={navHandler} href="/">
                 <Image
-                  src="/assets/r_dev.png"
+                  src="/assets/logo7.png"
                   alt="logo"
-                  width={87}
-                  height={35}
+                  width={140}
+                  height={50}
                 />
               </Link>
               <div
