@@ -142,7 +142,7 @@ const Contact = () => {
                   ></textarea>
                 </div>
                 <div className="flex justify-center">
-                  <button className="w-[50%] p-4 text-gray-100 mt-4 shadow-xl shadow-gray-400 dark:shadow-gray-700 rounded-lg uppercase bg-gradient-to-r from-[#5651e5] to-[#770dff] text-white px-8" type="submit">
+                  <button className="w-[50%] p-4 text-gray-100 mt-4 shadow-xl shadow-gray-400 dark:shadow-gray-700 rounded-lg uppercase bg-gradient-to-r from-[#5651e5] to-[#770dff] px-8" type="submit">
                     Submit
                   </button>
                 </div>

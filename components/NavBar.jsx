@@ -61,7 +61,7 @@ const NavBar = ({darkHandler,darkMode}) => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 dark:bg-gradient-to-r from-[#4568dc] to-[#b06ab3] dark:text-white">
         <Link href="/">
           <Image
-            src={"/assets/logo7.png"}
+            src={darkMode ? "/assets/white.png" : "/assets/transparent.png"}
             alt="logo"
             width="250"
             height="200"
@@ -121,7 +121,7 @@ const NavBar = ({darkHandler,darkMode}) => {
             <div className="flex w-full items-center justify-between">
               <Link onClick={navHandler} href="/">
                 <Image
-                  src="/assets/logo7.png"
+                  src={darkMode ? "/assets/white.png" : "/assets/transparent.png"}
                   alt="logo"
                   width={140}
                   height={50}
