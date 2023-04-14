@@ -36,12 +36,12 @@ const Meet_Up = () => {
             project, i practised all svelte theories and learnt how to connect
             with Firebase.
           </p>
-          <button className="py-2 px-8 mt-4 mr-8">
-            <Link href="https://meet-up-ronny.netlify.app">Demo</Link>
-          </button>
-          <button className="py-2 px-8 mt-4 ">
-            <Link href="https://github.com/Rosuljon/Meet-up-project">Code</Link>
-          </button>
+          <Link href="https://meet-up-ronny.netlify.app">
+            <button className="py-2 px-8 mt-4 mr-8">Demo</button>
+          </Link>
+          <Link href="https://github.com/Rosuljon/Meet-up-project">
+            <button className="py-2 px-8 mt-4 ">Code</button>
+          </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 dark:shadow-gray-700 rounded-xl p-4">
           <div className="p-2">

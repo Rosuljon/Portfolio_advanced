@@ -35,14 +35,12 @@ const Troy = () => {
             I used react, context api, react hooks and firebase in order to
             store the orders.
           </p>
-          <button className="py-2 px-8 mt-4 mr-8">
-            <Link href="https://troykebab.netlify.app">Demo</Link>
-          </button>
-          <button className="py-2 px-8 mt-4 ">
-            <Link href="https://github.com/Rosuljon/Troy-Kebab-online-food-order-">
-              Code
-            </Link>
-          </button>
+          <Link href="https://troykebab.netlify.app">
+            <button className="py-2 px-8 mt-4 mr-8">Demo</button>
+          </Link>
+          <Link href="https://github.com/Rosuljon/Troy-Kebab-online-food-order-">
+            <button className="py-2 px-8 mt-4 ">Code</button>
+          </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 dark:shadow-gray-700 rounded-xl p-4">
           <div className="p-2">

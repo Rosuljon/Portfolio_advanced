@@ -35,8 +35,12 @@ const Wallet = () => {
             fringilla. Nulla vel purus id nibh iaculis lacinia. Maecenas leo
             justo, auctor a auctor ac, porttitor ullamcorper mauris.{" "}
           </p>
-          <button className="py-2 px-8 mt-4 mr-8"><Link href='https://wallet.niktonet.com/'>Demo</Link></button>
-          <button className="py-2 px-8 mt-4 ">Code</button>
+          <Link href="https://wallet.niktonet.com/">
+            <button className="py-2 px-8 mt-4 mr-8">Demo</button>
+          </Link>
+          <Link href="https://github.com/Rosuljon">
+            <button className="py-2 px-8 mt-4 ">Code</button>
+          </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 dark:shadow-gray-700 rounded-xl p-4">
           <div className="p-2">
@@ -69,7 +73,7 @@ const Wallet = () => {
             </div>
           </div>
         </div>
-        <Link href='/#projects'>
+        <Link href="/#projects">
           <p className="underline cursor-pointer">Back</p>
         </Link>
       </div>

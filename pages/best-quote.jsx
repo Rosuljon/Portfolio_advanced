@@ -34,14 +34,12 @@ const Quote = () => {
             created to practise react folder structure, react hooks, react
             router and how to connect with Firebase.
           </p>
-          <button className="py-2 px-8 mt-4 mr-8">
-            <Link href="https://best-quote.netlify.app">Demo</Link>
-          </button>
-          <button className="py-2 px-8 mt-4 ">
-            <Link href="https://github.com/Rosuljon/Best_quotes_app-in-React-Router">
-              Code
-            </Link>
-          </button>
+          <Link href="https://best-quote.netlify.app">
+            <button className="py-2 px-8 mt-4 mr-8">Demo</button>
+          </Link>
+          <Link href="https://github.com/Rosuljon/Best_quotes_app-in-React-Router">
+            <button className="py-2 px-8 mt-4 ">Code</button>
+          </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 dark:shadow-gray-700 rounded-xl p-4">
           <div className="p-2">

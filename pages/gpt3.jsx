@@ -30,22 +30,28 @@ const GPT3 = () => {
           <h2 className="pb-4">Overview</h2>
           <p>
             I created and practised this project in order to increase my UI/UX
-            design skills, In this project, i revised the following topics:<br />
-            1.React Functional components and their reusability<br />
-            2.React file and folder structure<br />
-            3.Fundamental CSS properties to master flex & grid<br />
-            4.Fundamentals of the CSS BEM Model<br />
-            5.From soft and pleasant animations to complex gradients<br />
-            6.Perfectly placed media queries for satisfactory responsiveness covering almost devices<br />
+            design skills, In this project, i revised the following topics:
+            <br />
+            1.React Functional components and their reusability
+            <br />
+            2.React file and folder structure
+            <br />
+            3.Fundamental CSS properties to master flex & grid
+            <br />
+            4.Fundamentals of the CSS BEM Model
+            <br />
+            5.From soft and pleasant animations to complex gradients
+            <br />
+            6.Perfectly placed media queries for satisfactory responsiveness
+            covering almost devices
+            <br />
           </p>
-          <button className="py-2 px-8 mt-4 mr-8">
-            <Link href="https://gpt3-ronny.netlify.app">Demo</Link>
-          </button>
-          <button className="py-2 px-8 mt-4 ">
-            <Link href="https://github.com/Rosuljon/gpt3_ui_ux">
-              Code
-            </Link>
-          </button>
+          <Link href="https://gpt3-ronny.netlify.app">
+            <button className="py-2 px-8 mt-4 mr-8">Demo</button>
+          </Link>
+          <Link href="https://github.com/Rosuljon/gpt3_ui_ux">
+            <button className="py-2 px-8 mt-4 ">Code</button>
+          </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 dark:shadow-gray-700 rounded-xl p-4">
           <div className="p-2">
