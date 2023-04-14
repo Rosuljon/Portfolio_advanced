@@ -61,10 +61,10 @@ const NavBar = ({darkHandler,darkMode}) => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 dark:bg-gradient-to-r from-[#4568dc] to-[#b06ab3] dark:text-white">
         <Link href="/">
           <Image
-            src="/assets/r_dev.png"
+            src={"/assets/logo7.png"}
             alt="logo"
-            width="90"
-            height="50"
+            width="300"
+            height="250"
           ></Image>
         </Link>
         <div>
