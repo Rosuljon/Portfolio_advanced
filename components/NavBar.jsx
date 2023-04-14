@@ -58,7 +58,7 @@ const NavBar = ({darkHandler,darkMode}) => {
           : "fixed w-full h-20 z-[100]"
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 dark:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 dark:text-white">
+      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 dark:bg-gradient-to-r from-[#4568dc] to-[#b06ab3] dark:text-white">
         <Link href="/">
           <Image
             src="/assets/r_dev.png"
@@ -111,7 +111,7 @@ const NavBar = ({darkHandler,darkMode}) => {
         }
       >
         <motion.nav
-          className="fixed  w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 dark:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 dark:text-white"
+          className="fixed  w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 dark:bg-gradient-to-r from-[#4568dc] to-[#b06ab3] dark:text-white"
           initial="closed"
           animate={nav ? "open" : "closed"}
           variants={variants}
@@ -129,7 +129,7 @@ const NavBar = ({darkHandler,darkMode}) => {
               </Link>
               <div
                 onClick={navHandler}
-                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
+                className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 p-3 cursor-pointer"
               >
                 <AiOutlineClose />
               </div>
@@ -164,22 +164,22 @@ const NavBar = ({darkHandler,darkMode}) => {
               </p>
               <div className="flex my-4 items-center justify-between w-full sm:w-[80%]">
                 <Link href="https://www.linkedin.com/in/rosuljon-ikromjanov-46a831185/">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaLinkedinIn />
                   </div>
                 </Link>
                 <Link href="https://github.com/Rosuljon">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaGithub />
                   </div>
                 </Link>
                 <Link href="mailto:ikramjanov977@gmail.com">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <AiOutlineMail />
                   </div>
                 </Link>
                 <Link href="/#contact" onClick={navHandler}>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <BsPersonLinesFill />
                   </div>
                 </Link>

@@ -8,7 +8,7 @@ export default function Home() {
         <meta name="description" content="Ronny Dev's Portfolio website" />
         <link rel="icon" href="/assets/r_dev.png" />
       </Head>
-      <div className="dark:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 dark:text-white">
+      <div className="dark:bg-gradient-to-r from-[#4568dc] to-[#b06ab3] dark:text-white">
       <Main />
       <About />
       <Skills />

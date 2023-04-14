@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Crypto = () => {
   return (
-    <div className="w-full h-auto sm:h-screen lg:h-screen dark:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 dark:text-white">
+    <div className="w-full h-auto sm:h-screen lg:h-screen dark:bg-gradient-to-r from-[#4568dc] to-[#b06ab3] dark:text-white">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
         <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10" />
         <Image
@@ -42,7 +42,7 @@ const Crypto = () => {
             <Link href="https://github.com/Rosuljon/Meet-up-project">Code</Link>
           </button>
         </div>
-        <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
+        <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 dark:shadow-gray-700 rounded-xl p-4">
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
