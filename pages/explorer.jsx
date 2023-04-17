@@ -29,11 +29,15 @@ const Explorer = () => {
           </p>
           <h2 className="pb-4">Overview</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-            consequat felis et ullamcorper fermentum. Phasellus a dictum neque,
-            non porttitor leo. Phasellus vulputate augue nec ipsum sollicitudin
-            fringilla. Nulla vel purus id nibh iaculis lacinia. Maecenas leo
-            justo, auctor a auctor ac, porttitor ullamcorper mauris.{" "}
+            I have designed and developed a frontend website for a blockchain
+            explorer. This website allows users to explore and analyze the
+            transactions, blocks, and other data stored on a blockchain network.
+            With the website, users can view real-time updates of the latest
+            blockchain activity, search for specific transactions or blocks, and
+            access detailed information about individual transactions or blocks.
+            The website offers a user-friendly interface that is easy to
+            navigate, making it an ideal tool for anyone interested in exploring
+            the blockchain ecosystem.
           </p>
           <Link href="https://explorer.niktonet.com/">
             <button className="py-2 px-8 mt-4 mr-8">Demo</button>

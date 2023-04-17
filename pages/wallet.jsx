@@ -29,11 +29,14 @@ const Wallet = () => {
           </p>
           <h2 className="pb-4">Overview</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-            consequat felis et ullamcorper fermentum. Phasellus a dictum neque,
-            non porttitor leo. Phasellus vulputate augue nec ipsum sollicitudin
-            fringilla. Nulla vel purus id nibh iaculis lacinia. Maecenas leo
-            justo, auctor a auctor ac, porttitor ullamcorper mauris.{" "}
+            I have designed and developed a frontend website for a blockchain
+            wallet. This website allows users to securely store, send, and
+            receive digital assets, such as cryptocurrencies, using a
+            user-friendly interface. With this website, users have control over
+            their own private keys, which ensures that their digital assets are
+            safe and cannot be accessed by anyone else. The website integrates
+            with a blockchain platform, allowing users to seamlessly manage
+            their digital assets and participate in the decentralized economy.
           </p>
           <Link href="https://wallet.niktonet.com/">
             <button className="py-2 px-8 mt-4 mr-8">Demo</button>
