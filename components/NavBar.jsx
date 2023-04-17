@@ -12,7 +12,7 @@ const variants = {
   closed: { opacity: 0, y: "-120%" },
 };
 
-const NavBar = ({darkHandler,darkMode}) => {
+const NavBar = ({ darkHandler, darkMode }) => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState("#ecf0f3");
@@ -59,27 +59,47 @@ const NavBar = ({darkHandler,darkMode}) => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 dark:bg-gradient-to-r from-[#4568dc] to-[#b06ab3] dark:text-white">
-        <Link href="/">
-          <Image
-            src={darkMode ? "/assets/white.png" : "/assets/transparent.png"}
-            alt="logo"
-            width="250"
-            height="200"
-          ></Image>
-        </Link>
+        <div className="flex w-44 h-36 md:w-52 md:h-48">
+          <Link href="/">
+            <img
+              src={darkMode ? "/assets/white.png" : "/assets/transparent.png"}
+              alt="logo"
+              className="w-full h-full object-contain"
+            ></img>
+          </Link>
+        </div>
         <div>
-          <ul style={{ color: `${linkColor}` }} className="hidden md:flex ">
+          <ul
+            style={{ color: `${linkColor}` }}
+            className="hidden md:flex items-center"
+          >
             <li>
-                <BsFillMoonStarsFill className="cursor-pointer text-2xl dark:text-white" onClick={() =>darkHandler(!darkMode)} />
+              <a href="/assets/Ronny.pdf" download>
+                <button className="p-1 px-3 mr-4 capitalize dark:shadow-none">
+                  Resume
+                </button>
+              </a>
+            </li>
+            <li>
+              <BsFillMoonStarsFill
+                className="cursor-pointer text-2xl dark:text-white"
+                onClick={() => darkHandler(!darkMode)}
+              />
             </li>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b dark:text-white">Home</li>
+              <li className="ml-10 text-sm uppercase hover:border-b dark:text-white">
+                Home
+              </li>
             </Link>
             <Link href="#about">
-              <li className="ml-10 text-sm uppercase hover:border-b dark:text-white">About</li>
+              <li className="ml-10 text-sm uppercase hover:border-b dark:text-white">
+                About
+              </li>
             </Link>
             <Link href="#skills">
-              <li className="ml-10 text-sm uppercase hover:border-b dark:text-white">Skills</li>
+              <li className="ml-10 text-sm uppercase hover:border-b dark:text-white">
+                Skills
+              </li>
             </Link>
             <Link href="#projects">
               <li className="ml-10 text-sm uppercase hover:border-b dark:text-white">
@@ -94,12 +114,24 @@ const NavBar = ({darkHandler,darkMode}) => {
           </ul>
           <div
             style={{ color: `${linkColor}` }}
-            className="md:hidden flex p-4"
+            className="md:hidden flex p-4 items-center"
           >
-             <span className="mr-8">
-             <BsFillMoonStarsFill className="cursor-pointer text-2xl dark:text-white" onClick={() =>darkHandler(!darkMode)} />
-              </span>
-            <AiOutlineMenu className="dark:text-white" onClick={navHandler} size={25} />
+            <a href="/assets/Ronny.pdf" download>
+              <button className="p-1 px-3 mr-4 capitalize dark:shadow-none">
+                Resume
+              </button>
+            </a>
+            <span className="mr-8">
+              <BsFillMoonStarsFill
+                className="cursor-pointer text-2xl dark:text-white"
+                onClick={() => darkHandler(!darkMode)}
+              />
+            </span>
+            <AiOutlineMenu
+              className="dark:text-white"
+              onClick={navHandler}
+              size={25}
+            />
           </div>
         </div>
       </div>
@@ -121,7 +153,9 @@ const NavBar = ({darkHandler,darkMode}) => {
             <div className="flex w-full items-center justify-between">
               <Link onClick={navHandler} href="/">
                 <Image
-                  src={darkMode ? "/assets/white.png" : "/assets/transparent.png"}
+                  src={
+                    darkMode ? "/assets/white.png" : "/assets/transparent.png"
+                  }
                   alt="logo"
                   width={140}
                   height={50}
