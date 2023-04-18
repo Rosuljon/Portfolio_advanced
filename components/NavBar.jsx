@@ -143,7 +143,7 @@ const NavBar = ({ darkHandler, darkMode }) => {
         }
       >
         <motion.nav
-          className="fixed  w-[75%] sm:w-[60%] md:w-[45%] h-auto sm:h-screen bg-[#ecf0f3] p-10 dark:bg-gradient-to-r from-[#4568dc] to-[#b06ab3] dark:text-white"
+          className="fixed overflow-y-scroll no-scrollbar w-[75%] sm:w-[60%] md:w-[45%] h-screen sm:h-screen bg-[#ecf0f3] p-10 dark:bg-gradient-to-r from-[#4568dc] to-[#b06ab3] dark:text-white"
           initial="closed"
           animate={nav ? "open" : "closed"}
           variants={variants}
