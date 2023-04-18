@@ -139,7 +139,7 @@ const NavBar = ({ darkHandler, darkMode }) => {
       <div
         onClick={OnlyParentClickHandler}
         className={
-          nav ? " md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
+          nav ? " md:hidden overflow-hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
         }
       >
         <motion.nav
