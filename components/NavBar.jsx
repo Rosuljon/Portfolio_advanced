@@ -76,7 +76,7 @@ const NavBar = ({ darkHandler, darkMode }) => {
             <li>
               <a href="/assets/Ronny.pdf" download>
                 <button className="p-1 px-3 mr-10 capitalize shadow-none">
-                  Resume
+                  Résumé 
                 </button>
               </a>
             </li>
@@ -118,7 +118,7 @@ const NavBar = ({ darkHandler, darkMode }) => {
           >
             <a href="/assets/Ronny.pdf" download>
               <button className="bg-green-500 !important p-1 px-3 mr-4 capitalize shadow-none">
-                Resume
+                Résumé 
               </button>
             </a>
             <span className="mr-8">
