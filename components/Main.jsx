@@ -3,12 +3,21 @@ import { AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsPersonLinesFill } from "react-icons/bs";
 import Link from "next/link";
+import Image from "next/image";
+import Ronny from "../public/assets/graduate.png";
 
 const Main = () => {
   return (
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
+          <div className="flex justify-center my-8 pt-10">
+          <Image
+            src={Ronny}
+            className="max-w-[230px] md:min-w-[150px] md:max-w-[300px]"
+            alt="/"
+          />
+          </div>
           <p className="uppercase text-sm tracking-widest text-gray-600 dark:text-white">
             Let&apos;s build something together
           </p>
