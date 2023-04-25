@@ -5,12 +5,17 @@ export default function Home() {
     <div>
       <Head>
         <title>Ronny Dev | MERN Stack Developer</title>
-        {/* <meta name="description" content="Ronny Dev's Portfolio website" />
-        <meta property="og:image" content="/assets/transparent.png"></meta> */}
+        <meta name="description" content="Ronny Dev's Portfolio website" />
+        <meta property="image" content="..public/assets/transparent.png" />
+
+
+        <meta property="og:type" content="website" />
         <meta property="og:title" content="Ronny Dev | MERN Stack Developer" />
         <meta property="og:site_name" content="ronny7.netlify.app" />
         <meta property="og:description" content="Welcome to Ronny Dev's Portfolio Website" />
-        <meta property="og:image" content="http://ronny7.netlify.app/assets/transparent.png" />
+        <meta property="og:image" content="..public/assets/transparent.png" />
+
+
         <link rel="icon" href="/assets/r_dev.png" />
       </Head>
       <div className="dark:bg-gradient-to-r from-[#4568dc] to-[#b06ab3] dark:text-white">
