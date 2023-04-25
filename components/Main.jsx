@@ -5,6 +5,7 @@ import { BsPersonLinesFill } from "react-icons/bs";
 import Link from "next/link";
 import Image from "next/image";
 import Ronny from "../public/assets/graduate.png";
+import Typewriter from "typewriter-effect";
 
 const Main = () => {
   return (
@@ -12,20 +13,29 @@ const Main = () => {
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <div className="flex justify-center my-8 pt-10">
-          <Image
-            src={Ronny}
-            className="max-w-[230px] md:min-w-[150px] md:max-w-[300px]"
-            alt="/"
-          />
+            <Image
+              src={Ronny}
+              className="max-w-[230px] md:min-w-[150px] md:max-w-[300px]"
+              alt="/"
+            />
           </div>
           <p className="uppercase text-sm tracking-widest text-gray-600 dark:text-white">
             Let&apos;s build something together
           </p>
           <h1 className="py-4 text-gray-700 dark:text-white">
-            Hi, I&apos;m <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#AE67FA] to-[#F49867] dark:text-white">Ronny</span>
+            Hi, I&apos;m{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#AE67FA] to-[#F49867] dark:text-white">
+              Ronny
+            </span>
           </h1>
           <h1 className="py-2 text-gray-700 dark:text-white">
-            A Frontend Web Developer
+            <Typewriter
+              options={{
+                strings: ["Frontend Web Developer", "Mern Stack Developer"],
+                autoStart: true,
+                loop: true,
+              }}
+            />
           </h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto dark:text-white">
             I am a passionate and experienced front-end developer. I specialize
