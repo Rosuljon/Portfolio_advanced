@@ -26,7 +26,7 @@ const Main = () => {
             Hi, I&apos;m{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#AE67FA] to-[#F49867] dark:text-white">
               Ronny
-            </span>
+            </span>👨🏻‍💻
           </h1>
           <h1 className="py-2 text-gray-700 dark:text-white">
             <Typewriter
@@ -34,6 +34,8 @@ const Main = () => {
                 strings: ["Frontend Web Developer", "Mern Stack Developer"],
                 autoStart: true,
                 loop: true,
+                delay: 150,
+                deleteSpeed: 150,
               }}
             />
           </h1>
