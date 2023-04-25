@@ -8,8 +8,8 @@ import Ronny from "../public/assets/graduate.png";
 
 const Main = () => {
   return (
-    <div id="home" className="w-full h-screen text-center">
-      <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center pt-10">
+    <div id="home" className="w-full h-auto pt-10 text-center md:pt-40">
+      <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <div className="flex justify-center my-8 pt-10">
           <Image
