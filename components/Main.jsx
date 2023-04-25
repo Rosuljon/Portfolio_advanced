@@ -31,11 +31,10 @@ const Main = () => {
           <h1 className="py-2 text-gray-700 dark:text-white">
             <Typewriter
               options={{
-                strings: ["Frontend Web Developer", "Mern Stack Developer"],
+                strings: ["Frontend Developer", "Mern Stack Devs"],
                 autoStart: true,
                 loop: true,
-                delay: 150,
-                deleteSpeed: 150,
+
               }}
             />
           </h1>
