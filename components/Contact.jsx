@@ -88,7 +88,7 @@ const Contact = () => {
             </div>
           </div>
           {/* right */}
-          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 dark:shadow-gray-700 dark:text-gray-800  rounded-xl p-4 ">
+          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 dark:shadow-gray-700  rounded-xl p-4 ">
             <div className="p-4">
               <form onSubmit={handleSubmit}>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
@@ -134,7 +134,7 @@ const Contact = () => {
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Message</label>
                   <textarea
-                    className="border-2 rounded-lg p-3 flex border-gray-300"
+                    className="border-2 rounded-lg p-3 flex border-gray-300 dark:text-gray-900"
                     rows={8}
                     type="text"
                     name="message"

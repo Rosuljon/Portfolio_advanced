@@ -30,6 +30,9 @@ html {
   button {
     @apply shadow-xl shadow-gray-400 dark:shadow-gray-700 rounded-lg uppercase bg-gradient-to-r from-[#5651e5] to-[#770dff] text-white px-8;
   }
+  input {
+    @apply dark:text-gray-900;
+  }
 }
 
 @layer utilities {
