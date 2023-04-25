@@ -14,6 +14,7 @@ const Main = () => {
         <div>
           <div className="flex justify-center my-8 pt-10">
             <Image
+              priority
               src={Ronny}
               className="max-w-[230px] md:min-w-[150px] md:max-w-[300px]"
               alt="/"
