@@ -39,7 +39,7 @@ const Explorer = () => {
             navigate, making it an ideal tool for anyone interested in exploring
             the blockchain ecosystem.
           </p>
-          <Link href="https://explorer.niktonet.com/">
+          <Link href="http://test.explorer.inae.io/">
             <button className="py-2 px-8 mt-4 mr-8">Demo</button>
           </Link>
           <Link href="https://github.com/Rosuljon">
