@@ -19,8 +19,6 @@ function MyApp({ Component, pageProps }) {
       (!("theme" in localStorage) &&
         window.matchMedia("(prefers-color-scheme: dark)").matches)
     ) {
-      console.log(window.matchMedia("(prefers-color-scheme: dark)").matches);
-      console.log(!("theme" in localStorage));
       setDarkMode(true);
     } else {
       setDarkMode(false);
