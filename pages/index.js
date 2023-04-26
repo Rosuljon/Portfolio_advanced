@@ -11,7 +11,7 @@ export default function Home() {
 
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Ronny Dev | MERN Stack Developer" />
-        <meta property="og:site_name" content="ronny7.netlify.app" />
+        <meta property="og:site_name" content="rosuljon.netlify.app" />
         <meta property="og:description" content="Welcome to Ronny Dev's Portfolio Website" />
         <meta property="og:image" content="assets/transparent.png" />
 
