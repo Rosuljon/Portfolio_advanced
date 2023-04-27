@@ -64,7 +64,7 @@ const NavBar = ({ darkHandler, darkMode }) => {
             <img
               src={darkMode ? "/assets/white.png" : "/assets/transparent.png"}
               alt="logo"
-              className="w-full h-full object-contain"
+              className="w-full h-full"
             ></img>
           </Link>
         </div>
