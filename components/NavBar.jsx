@@ -91,22 +91,22 @@ const NavBar = ({ darkHandler, darkMode }) => {
                 Home
               </li>
             </Link>
-            <Link href="#about">
+            <Link href="/#about">
               <li className="ml-10 text-sm uppercase hover:border-b dark:text-white">
                 About
               </li>
             </Link>
-            <Link href="#skills">
+            <Link href="/#skills">
               <li className="ml-10 text-sm uppercase hover:border-b dark:text-white">
                 Skills
               </li>
             </Link>
-            <Link href="#projects">
+            <Link href="/#projects">
               <li className="ml-10 text-sm uppercase hover:border-b dark:text-white">
                 Projects
               </li>
             </Link>
-            <Link href="#contact">
+            <Link href="/#contact">
               <li className="ml-10 text-sm uppercase hover:border-b dark:text-white">
                 Contact
               </li>
