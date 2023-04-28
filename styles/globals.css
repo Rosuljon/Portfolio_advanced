@@ -8,7 +8,7 @@ html {
 
 @layer base {
   body {
-    @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide;
+    @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide dark:bg-gradient-to-r from-[#4568dc] to-[#b06ab3] dark:text-white;
   }
   h1,
   h2,
