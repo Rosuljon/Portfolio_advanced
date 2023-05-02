@@ -5,8 +5,9 @@ export default function Home() {
     <div>
       <Head>
         <title>Ronny Dev | MERN Stack Developer</title>
-        <meta name="description" content="Ronny Dev's Portfolio website !!!!!!!!!!!!!!" />
+        <meta name="description" content="Ronny Dev's Portfolio website" />
         <meta property="image" content="assets/transparent.png" />
+        <meta property="type" content="website" />
 
 
         <meta property="og:type" content="website" />

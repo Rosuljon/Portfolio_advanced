@@ -7,6 +7,7 @@ const GridItem = (props) => {
       <div className="grid grid-cols-2 gap-4 justify-center items-center">
         <div className="m-auto">
           <Image
+            priority
             src={props.link}
             width={64}
             height={64}
