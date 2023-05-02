@@ -16,7 +16,7 @@ const Main = () => {
             <Image
               priority
               src={Ronny}
-              className="max-w-[230px] md:min-w-[150px] md:max-w-[300px]"
+              className="max-w-[230px] md:min-w-[150px] md:max-w-[300px] hover:scale-105 ease-in duration-300"
               alt="/"
             />
           </div>
