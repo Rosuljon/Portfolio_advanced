@@ -22,6 +22,7 @@ const Skills = () => {
           <GridItem name="MONGOOSE" link="/assets/skills/mongoose.png" />
           <GridItem name="FIREBASE" link="/assets/skills/firebase.png" />
           <GridItem name="GITHUB" link="/assets/skills/github1.png" />
+          <GridItem name="DOCUSAURUS" link="/assets/skills/docusaurus.svg" />
         </div>
       </div>
     </div>

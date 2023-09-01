@@ -74,7 +74,7 @@ const NavBar = ({ darkHandler, darkMode }) => {
             className="hidden md:flex items-center"
           >
             <li>
-              <a href="/assets/Ronny.pdf" download>
+              <a href="/assets/Real.pdf" download>
                 <button className="p-1 px-3 mr-10 capitalize shadow-none">
                   Résumé 
                 </button>
