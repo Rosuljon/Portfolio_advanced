@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import wallet from "../public/assets/projects/explorer.png";
+import wallet from "../public/assets/projects/niktonet.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 

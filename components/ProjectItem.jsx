@@ -7,9 +7,9 @@ const ProjectItem = (props) => {
     <div className="relative flex justify-center items-center h-auto w-full shadow-lg shadow-gray-400 dark:shadow-gray-700 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
       <Image
         priority
-        width={800}
-        height={800}
-        className="rounded-xl group-hover:opacity-10"
+        width={600}
+        height={372}
+        className="rounded-xl group-hover:opacity-10 h-[372px] w-[572px]"
         src={props.project.photo}
         alt={props.project.name}
       ></Image>

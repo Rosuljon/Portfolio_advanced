@@ -1,7 +1,8 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
 import wallet from "../public/assets/projects/wallet.png";
-import explorer from "../public/assets/projects/explorer.png";
+import explorer from "../public/assets/projects/niktonet.jpg";
+import inae from "../public/assets/projects/inae.png";
 import troy from "../public/assets/projects/Troya.png";
 import quote from "../public/assets/projects/12.png";
 import meetup from "../public/assets/projects/meet-up.png";
@@ -15,6 +16,12 @@ const Projects = () => {
       framework: "Svelte js",
       photo: wallet,
       link: "wallet",
+    },
+    {
+      name: "Inae Explorer for BlockChain Tech.",
+      framework: "Svelte js",
+      photo: inae,
+      link: "inae",
     },
     {
       name: "Explorer for BlockChain Tech.",
