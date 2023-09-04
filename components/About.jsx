@@ -14,12 +14,12 @@ const About = () => {
           <p className="py-2 text-gray-600 dark:text-white">
             I am Ikromjanov Rosuljon (Ronny) and graduated from Sejong
             University in 2022 with a degree in Computer Science.My interests
-            are in Front End Engineering, and I love to create beautiful and
+            are in Web Development, and I love to create beautiful and
             performant products with delightful user experiences.
           </p>
           <p className="py-2 text-gray-600 dark:text-white">
             I have been working at a Blockchain Company named Hessegg since
-            August 2022. As a front-end developer at a blockchain company, I
+            August 2022. As a frontend developer at a blockchain company, I
             have had the privilege of working on exciting projects that have
             allowed me to push my skills to the limit. Specifically, I have had
             the opportunity to create a wallet and explorer website for our

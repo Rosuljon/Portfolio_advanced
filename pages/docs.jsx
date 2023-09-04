@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import wallet from "../public/assets/projects/niktonet.jpg";
+import docs from "../public/assets/projects/docs.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -9,14 +9,12 @@ const Explorer = () => {
     <div className="w-full h-auto sm:h-screen lg:h-screen dark:bg-gradient-to-r from-[#4568dc] to-[#b06ab3] dark:text-white">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative overflow-hidden">
         <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10" />
-        <Image
-          className="absolute z-1"
-          src={wallet}
-          alt="/"
-        />
+        <Image className="absolute z-1" src={docs} alt="/" />
         <div className="absolute top-[70%] w-full max-w-[1240px] left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">BlockChain Explorer</h2>
-          <h3>Svelte Js / Websocket / Webpack</h3>
+          <h2 className="py-2">
+            Documentation website for Inae coin integration
+          </h2>
+          <h3>React Js / Docusaurus </h3>
         </div>
       </div>
 
@@ -27,17 +25,17 @@ const Explorer = () => {
           </p>
           <h2 className="pb-4">Overview</h2>
           <p>
-            I have designed and developed a frontend website for a blockchain
-            explorer. This website allows users to explore and analyze the
-            transactions, blocks, and other data stored on a blockchain network.
-            With the website, users can view real-time updates of the latest
-            blockchain activity, search for specific transactions or blocks, and
-            access detailed information about individual transactions or blocks.
-            The website offers a user-friendly interface that is easy to
-            navigate, making it an ideal tool for anyone interested in exploring
-            the blockchain ecosystem.
+            During my involvement in the Inae website project, I was tasked with
+            creating a concise documentation website for integrating Inae coin.
+            Under the guidance of our CTO, I opted for the widely used
+            Docusaurus template, known for its effectiveness in the industry. In
+            a short timeframe, I quickly mastered the template and seamlessly
+            integrated our content. The successful launch of this documentation
+            website was an exhilarating and enriching experience, showcasing my
+            adaptability and ability to efficiently deliver essential resources
+            to users.
           </p>
-          <Link href="http://niktonet.com/">
+          <Link href="http://docs.inae.io/">
             <button className="py-2 px-8 mt-4 mr-8">Demo</button>
           </Link>
           <Link href="https://github.com/Rosuljon">
@@ -60,12 +58,7 @@ const Explorer = () => {
 
               <p className="text-gray-600 py-2 flex items-center dark:text-white">
                 <RiRadioButtonFill className="pr-1" />
-                Websocket
-              </p>
-
-              <p className="text-gray-600 py-2 flex items-center dark:text-white">
-                <RiRadioButtonFill className="pr-1" />
-                Crypto-js
+                Swiper
               </p>
 
               <p className="text-gray-600 py-2 flex items-center dark:text-white">

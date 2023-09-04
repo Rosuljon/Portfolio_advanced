@@ -8,6 +8,8 @@ import quote from "../public/assets/projects/12.png";
 import meetup from "../public/assets/projects/meet-up.png";
 import crypto from "../public/assets/projects/crypto.png";
 import gpt3 from "../public/assets/projects/gpt333.png";
+import klaatoo from "../public/assets/projects/klaato.png";
+import docs from "../public/assets/projects/docs.png";
 
 const Projects = () => {
   const data = [
@@ -28,6 +30,18 @@ const Projects = () => {
       framework: "Svelte js",
       photo: explorer,
       link: "explorer",
+    },
+    {
+      name: "Klaatoo Wallet Download Page",
+      framework: "Svelte js",
+      photo: klaatoo,
+      link: "klaatoo",
+    },
+    {
+      name: "Documentation website for Inae coin integration",
+      framework: "docusaurus template",
+      photo: docs,
+      link: "docs",
     },
     {
       name: "ChatGPT3 UI/UX design",

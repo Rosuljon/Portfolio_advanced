@@ -40,7 +40,7 @@ const Main = () => {
             />
           </h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto dark:text-white">
-            I am a passionate and experienced front-end developer. I specialize
+            I am a passionate and experienced frontend developer. I specialize
             in creating dynamic and responsive websites that combine creative
             design with clean, efficient code.
           </p>

@@ -37,7 +37,7 @@ const Explorer = () => {
             navigate, making it an ideal tool for anyone interested in exploring
             the blockchain ecosystem.
           </p>
-          <Link href="http://test.explorer.inae.io/">
+          <Link href="http://inae.io/">
             <button className="py-2 px-8 mt-4 mr-8">Demo</button>
           </Link>
           <Link href="https://github.com/Rosuljon">
