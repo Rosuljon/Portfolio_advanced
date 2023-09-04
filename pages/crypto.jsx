@@ -10,7 +10,7 @@ const Crypto = () => {
       <div className="w-screen h-[30vh] lg:h-[40vh] relative overflow-hidden">
         <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10" />
         <Image
-          className="absolute z-1"
+          className="absolute z-1 w-full"
           
           src={wallet}
           alt="/"
